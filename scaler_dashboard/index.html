@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scaler Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <h2>SCALER</h2>
+            <nav class="nav-links">
+                <a href="#" class="active"><i class="fas fa-home"></i> Dashboard</a>
+                <a href="#"><i class="fas fa-book"></i> Curriculum</a>
+                <a href="#"><i class="fas fa-video"></i> Live Classes</a>
+                <a href="#"><i class="fas fa-user-tie"></i> Mentorship</a>
+                <a href="#"><i class="fas fa-users"></i> Community</a>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <div class="search-bar"><i class="fas fa-search"></i><input type="text" placeholder="Search..."></div>
+                <div class="user-profile"><img src="https://ui-avatars.com/api/?name=User" alt="Profile"></div>
+            </header>
+            <div class="content-area">
+                <section class="welcome-banner">
+                    <h1>Welcome back! 👋</h1>
+                    <p>You have completed 45% of your track.</p>
+                </section>
+                <section class="live-class-card">
+                    <h3>Next Live Class</h3>
+                    <p>System Design: Microservices</p>
+                    <button id="join-btn" class="join-btn">Join Now</button>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

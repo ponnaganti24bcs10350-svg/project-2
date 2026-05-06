@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+body { background-color: #0f172a; color: #f8fafc; }
+.dashboard-container { display: flex; min-height: 100vh; }
+.sidebar { width: 260px; background-color: #1e293b; padding: 2rem 0; border-right: 1px solid #334155; }
+.sidebar h2 { color: #3b82f6; padding: 0 2rem; margin-bottom: 2rem; }
+.nav-links a { display: block; color: #94a3b8; padding: 1rem 2rem; text-decoration: none; }
+.nav-links a.active, .nav-links a:hover { background-color: #334155; color: #fff; }
+.main-content { flex: 1; display: flex; flex-direction: column; }
+.header { height: 80px; background-color: #1e293b; display: flex; justify-content: space-between; align-items: center; padding: 0 3rem; border-bottom: 1px solid #334155; }
+.search-bar { background: #0f172a; padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid #334155; }
+.search-bar input { background: none; border: none; color: white; outline: none; }
+.user-profile img { width: 40px; border-radius: 50%; }
+.content-area { padding: 3rem; }
+.welcome-banner { background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), transparent); padding: 2.5rem; border-radius: 16px; border: 1px solid #3b82f6; margin-bottom: 2rem; }
+.live-class-card { background-color: #1e293b; padding: 2rem; border-radius: 16px; }
+.join-btn { background-color: #3b82f6; color: white; padding: 1rem 2rem; border: none; border-radius: 8px; cursor: pointer; margin-top: 1rem; }
+.join-btn:hover { background-color: #2563eb; }
